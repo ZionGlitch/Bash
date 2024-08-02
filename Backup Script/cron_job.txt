@@ -1,0 +1,5 @@
+Option 1: Paste the Cron Job below into crontab.
+0 0 2-30/2 * * bash /FILE/PATH/TO/backup.sh
+
+Option 2: Paste the Cron Job below into crontab. With Logging Feature
+0 0 2-30/2 * * bash /FILE/PATH/TO/backup.sh >> /FILE/PATH/TO/FOLDER/backup.log 2>&1
